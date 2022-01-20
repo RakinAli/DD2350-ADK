@@ -1,0 +1,22 @@
+Rollbesättning är minst lika svår som graffärgning
+
+Tar indata för graffärg, omvandla den genom att reducera/modifiera till indata för rollbesättning. 
+
+Sedan verifier vi lösningen till graffärgning med modifierade indatan till graffärgning. 
+
+Ja/nej instans för ena problemet ska motsvara ja/nej instans till det andra problemet. --> Kattis gör detta
+
+Tidskomplexitet är nodes * colors
+
+
+divorna 
+skådespeplare 1 till roll 1  
+skådeseplare 2 till alla roller 
+
+på så sätt 
+
+1) Alla noder har en kant -> Alla roller är med i en scen
+
+2) Divorna är inte kopplad till varandra. 
+
+
